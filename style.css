@@ -247,13 +247,23 @@
 
     color: #3A79FF;
 }
+.block-line {
+    position: absolute;
+    display: block;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 944px;
+
+    border: 1px solid #D8E3FE;
+}
 .second-block {
     position: absolute;
     width: 1439px;
     height: 438px;
     left: 1px;
     top: 944px;
-
+    border: 1px solid #D8E3FE;
     background: #FFFFFF;
 }
 .clouds {
@@ -432,9 +442,11 @@
     left: 618px;
     top: 305px;
     transition: background-color linear .5s;
+    border-radius: 30%;
 }
 .social-1:hover {
     background-color: #6188FF;
+    border-radius: 30%;
 }
 .social-2 {
     position: absolute;
@@ -443,14 +455,17 @@
     top: 305px;
     bottom: 6.48%;
     transition: background-color linear .5s;
+    border-radius: 30%;
 }
 .social-2:hover {
     background-color: #6188FF;
+    border-radius: 30%;
 }
 .social-3 {
     position: absolute;
     left: 766.56px;
     top: 305px;
+    border-radius: 30%;
 }
 .social-4 {
     position: absolute;
@@ -459,9 +474,11 @@
     top: 305px;
     bottom: 6.51%;
     transition: background-color linear .5s;
+    border-radius: 30%;
 }
 .social-4:hover {
     background-color: #6188FF;
+    border-radius: 30%;
 }
 .footer {
     position: absolute;
