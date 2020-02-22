@@ -149,6 +149,7 @@
     white-space: nowrap;
 
     color: #7A85AD;
+    background: #F5F8FF;
 }
 .clear {
     position: absolute;
@@ -340,9 +341,9 @@
 .pluses-image-gener {
     position: absolute;
     width: 25px;
-    height: 25px;
+    height: 20px;
     left: 712px;
-    top: 95px;
+    top: 98px;
     border-radius: 100%;
 
     background: #F1F5FF;
