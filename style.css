@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 .first-block {
     position: absolute;
     width: 1440px;
@@ -67,8 +69,10 @@
 
     background: #FFFFFF;
     border: 1px solid #D8E3FE;
-    box-sizing: border-box;
-    box-shadow: 0px 15px 50px #EFF4FF;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0px 15px 50px #EFF4FF;
+            box-shadow: 0px 15px 50px #EFF4FF;
 }
 .enter-up {
     position: absolute;
@@ -145,7 +149,9 @@
     /* identical to box height */
 
     display: block;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     white-space: nowrap;
 
     color: #7A85AD;
@@ -175,8 +181,14 @@
     line-height: 16px;
     /* identical to box height */
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
 
     color: #D43F3F;
@@ -242,8 +254,14 @@
     line-height: 16px;
     /* identical to box height */
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
 
     color: #3A79FF;
@@ -422,12 +440,11 @@
     height: 26.44px;
     left: 618px;
     top: 305px;
-    transition: background-color linear .5s;
-    border-radius: 30%;
+    opacity: 0.9;
 }
 .social-1:hover {
-    background-color: #6188FF;
-    border-radius: 30%;
+    content: url('images/f-active.png');
+    opacity: 1;
 }
 .social-2 {
     position: absolute;
@@ -435,18 +452,16 @@
     right: 50.62%;
     top: 305px;
     bottom: 6.48%;
-    transition: background-color linear .5s;
-    border-radius: 30%;
+    opacity: 0.9;
 }
 .social-2:hover {
-    background-color: #6188FF;
-    border-radius: 30%;
+    content: url('images/ino-active.png');
+    opacity: 1;
 }
 .social-3 {
     position: absolute;
     left: 766.56px;
     top: 305px;
-    border-radius: 30%;
 }
 .social-4 {
     position: absolute;
@@ -454,12 +469,11 @@
     right: 40.18%;
     top: 305px;
     bottom: 6.51%;
-    transition: background-color linear .5s;
-    border-radius: 30%;
+    opacity: 0.9;
 }
 .social-4:hover {
-    background-color: #6188FF;
-    border-radius: 30%;
+    content: url('images/t-active.png');
+    opacity: 1;
 }
 .footer {
     position: absolute;
@@ -475,8 +489,14 @@
     line-height: 15px;
     /* identical to box height */
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: capitalize;
